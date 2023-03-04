@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Sal",
+    "email": "sal@hotmail.com",
+    "password": "password12345",
+    "business_id": "1"
+
+  },
+  {
+    "name": "Lernantino",
+    "email": "lernantino@gmail.com",
+    "password": "password12345",
+    "business_id": "1"
+
+  },
+  {
+    "name": "Amiko",
+    "email": "amiko2k20@aol.com",
+    "password": "password12345",
+    "business_id": "2"
+  },
+  {
+    "name": "Jamie",
+    "email": "Jamie@gmail.com",
+    "password": "password12345",
+    "business_id": "2"
+  },
+  {
+    "name": "admin2",
+    "email": "admin2@gmail.com",
+    "password": "12345678",
+    "business_id": "2"
+  },
+  {
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "password": "12345678",
+    "business_id": "1"
+  },
+  {
+    "name": "John",
+    "email": "JohnJ@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Amber",
+    "email": "ambersemail@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Carrie",
+    "email": "CarrieCat@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Emily",
+    "email": "Em12345@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Peter",
+    "email": "herm4@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Robert",
+    "email": "rg5@gmail.com",
+    "password": "password12345"
+  }
+]

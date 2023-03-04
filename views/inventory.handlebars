@@ -1,0 +1,22 @@
+
+<div class="flex flex-col">
+<button class="add-new-inventory-button">Add New Item</button>
+    <div>{{inventoryItems.0.business.business_name}} : Inventory </div>
+    <div id="itemsDiv" class="flex flex-wrap">
+        {{#each inventoryItems as |item|}}
+        <div data-id="{{item.id}}" class="inventory-item border-black border-2 m-2 p-2 flex flex-col truncate text-center">
+            <div data-id="{{item.id}}">{{item.item_name}}</div>
+            <div data-id="{{item.id}}">{{item.item_description}}</div>
+
+            {{#if item.item_image}} 
+            <img src="{{item.item_image}}" data-id="{{item.id}}" class="update-item-image"></img>
+            {{/if}}
+
+            <div data-id="{{item.id}}">{{money item.item_price}}</div>
+            <div data-id="{{item.id}}">Quantity: {{item.quantity_instock}}</div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<script src="/js/inventory.js"></script>

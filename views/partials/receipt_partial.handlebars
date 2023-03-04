@@ -1,0 +1,67 @@
+
+<div class="receipt flex-col w-full" id="orderId" data-id="{{orderID}}">
+    <h2 class="text-3xl font-bold text-center"> Cart </h2>
+    <div class="flex flex-col lg:flex-row">
+        <div class="lg:w-1/2 lg:text-left text-center w-full p-2">
+            <p>{{business.business_name}}</p>
+            <p>{{business.business_address_ln1}}</p>
+            {{#if business.business_address_ln2}}
+            <p>{{business.business_address_ln2}}</p>
+            {{/if}}
+            <p>{{business.business_city}}, {{business.business_state}} {{business.business_zip}}</p>
+            <p>{{business.business_phone}}</p>
+        </div>
+        <form class="form buyer-form lg:w-1/2 w-full flex justify-around">
+            <div class="form-group">
+                <label for="buyer_email">EMAIL:</label>
+                <input class="form-input" type="text" id="buyer_email" value="{{citems.user.email}}" />
+            </div>
+            <div class="form-group hidden" id="buyerDiv">
+                <label for="buyer_name">BUYER NAME:</label>
+                <input class="form-input" type="text" id="buyer_name" />
+            </div>
+            <div class="form-group hidden" id="passwordDiv">
+                <label for="buyer_password">PASSWORD:</label>
+                <input class="form-input " type="password" id="buyer_password" />
+            </div>
+            <div class="form-group hidden" id="buttonDiv">
+                <button id="addUserBtn" class="p-2 bg-black text-white w-full mt-2">ADD USER</button>
+            </div>
+        </form>
+
+    </div>
+
+
+    <ul class="text-xl font-bold text-center border-t-8 border-t-black mt-2">ORDER: {{orderID}}</ul>
+    <div class="flex font-bold">
+        <div class="w-2/12">QTY</div>
+        <div class="w-8/12">ITEM</div>
+        <div class="w-2/12">COST</div>
+    </div>
+    <div class="flex flex-col">
+        {{#each citems.items as |cartitem|}}
+        <div class="flex m-1">
+            <div id="itemId" data-id="{{id}}" class="w-1/6">{{order_items.quantity_purchased}}</div>
+            <div class="w-4/6">{{item_name}}</div>
+            <div class="w-1/6">{{multiplyPrice item_price order_items.quantity_purchased}}</div>
+        </div>
+        {{/each}}
+    </div>
+    <div class="total-price text-2xl font-bold" id="totalPrice" data-id="{{citems.totalCost}}">Total Price: {{#if
+        citems.totalCost}}{{money citems.totalCost}} {{else}} $ 0 {{/if}}</div>
+    {{#if citems.paid}}
+    <div class="text-7xl font-bold text-red-500 text-center border-t-red-500 border-t-4  border-b-red-500 border-b-4 m-4">PAID</div>
+    {{else}}
+    <div class="flex w-full">
+        <label class="w-full" for="payment_method">CHOOSE A PAYMENT METHOD:</label>
+        <select class="w-full" name="payment_selector" id="payment_method">
+            <option value="cash">CASH</option>
+            <option value="check">CHECK</option>
+            <option value="credit">CREDIT</option>
+        </select>
+    </div>
+    <button id="payNowBtn" class="p-3 bg-black text-white m-2">PAY NOW</button>
+    <button id="saveBtn" class="p-3 bg-black text-white m-2">SAVE FOR LATER</button>
+    {{/if}}
+</div>
+<script src="./../../../js/receipt.js"></script>

@@ -1,0 +1,19 @@
+[
+  {
+    "business_name": "Pictures For You",
+    "business_address_ln1": "1801 Touy Ave",
+    "business_address_ln2": "Unit 3",
+    "business_city": "Chicago",
+    "business_state": "IL",
+    "business_zip": "60630",
+    "business_phone": "123-321-4455"
+  },
+  {
+    "business_name": "Trading Card Depot",
+    "business_address_ln1": "5578 Dempster Street",
+    "business_city": "East Chicago",
+    "business_state": "IN",
+    "business_zip": "61455",
+    "business_phone": "678-989-4567"
+  }
+]

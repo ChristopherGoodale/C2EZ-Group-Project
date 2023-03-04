@@ -1,0 +1,42 @@
+<!-- Loop over each item in the items array -->
+<div class="individual-item-card w-1/2" id="item-card" data-id="{{individualItem.id}}">
+  <div class="item-name w-4/6">
+  <button id="backToOrder" class="bg-black p-4 text-white">BACK TO ORDER</button>
+    <h2 class="card-title">
+      <a class="individual-item-name text-5xl" href="/item/{{individualItem.id}}">{{individualItem.item_name}}</a>
+    </h2>
+
+
+<div>
+  {{#if individualItem.item_image}}
+  <img class="card-img w-full h-auto" src="{{individualItem.item_image}}" alt="">
+  {{else}}
+  <img class="item-image" src="/images/150x150-placeholder-img.png" height="150" width="150" alt="" data-id="{{id}}">
+  {{/if}}
+
+</div>
+   
+    <p>
+
+      <span class="dollar-amount text-2xl">{{money individualItem.item_price}}</span>
+      
+    </p>
+  </div>
+  <div class="item-description text-2xl">
+    <p>
+      {{individualItem.item_description}}
+    </p>
+  </div>
+  <div>
+    {{#if citems.paid}}
+    {{else}}
+    <form class="form login-form">
+      <div class="form-group">
+        <label class="text-2xl font-bold" for="quantity">QUANTITY:</label>
+        <input class="form-input text-center text-2xl" type="number" value="1" id="quantity_purchased" />
+      </div>
+    </form>
+    <button id="atcBtn" class=" p-8 w-full text-3xl">ADD TO CART</button>
+    {{/if}}
+  </div>
+</div>

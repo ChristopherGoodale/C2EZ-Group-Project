@@ -1,0 +1,185 @@
+[
+  {
+    "item_name": "10 Minute Photo Session",
+    "item_description": "10 minute photo session no prints",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 10.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "20 Minute Photo Session",
+    "item_description": "20 minute photo session no prints",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 15.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "30 Minute Photo Session",
+    "item_description": "30 minute photo session no prints",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 20.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "wallet prints",
+    "item_description": "10 wallet prints",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 5.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "5x7 prints",
+    "item_description": "set of 4 prints 5 x 7",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 5.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "8x10 print",
+    "item_description": "1 8x10 print",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 5.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "$20 Print Package",
+    "item_description": "ten wallets, eight 5x7s, four 8x10s",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 20.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "$30 Print Package",
+    "item_description": "twenty wallets, ten 5x7s, six 8x10s",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 30.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "$40 Print Package",
+    "item_description": "thirty wallets, eight 5x7s, four 8x10s, ten 4x6s",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676934018/abr0kvmeeqa0clkzwsjn.png",
+    "item_price": 40.00,
+    "quantity_instock": 100,
+    "business_id": 1
+  },
+  {
+    "item_name": "Topps MLB - Albert Pujols - 2020",
+    "item_description": "Albert Pujols - 2020 Silver Card",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 8.75,
+    "quantity_instock": 1,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Sammy Sosa - Rookie Card",
+    "item_description": "Sammy Sosa - Rookie Card - Chicago Cubs",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 28.50,
+    "quantity_instock": 1,
+    "business_id": 2
+  },{
+    "item_name": "Topps MLB - Shohei Ohtani - 2020",
+    "item_description": "Shohei Ohtani - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 10.00,
+    "quantity_instock": 2,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Kurt Suzuki - 2020",
+    "item_description": "Kurt Suzuki - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 5.75,
+    "quantity_instock": 5,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Alex Bregman - Houston - 2020",
+    "item_description": "Alex Bregman - Houston - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 9.00,
+    "quantity_instock": 2,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Jose Altuve - 2020",
+    "item_description": "Jose-Altuve - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 14.75,
+    "quantity_instock": 8,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Vladimir Guerrero Jr - 2020",
+    "item_description": "Vladimir Guerrero Jr - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 18.50,
+    "quantity_instock": 2,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Freddie Freeman - 2020",
+    "item_description": "Freddie Freeman - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 4.50,
+    "quantity_instock": 20,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - William Contreras - 2020",
+    "item_description": "William Contreras - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 10.00,
+    "quantity_instock": 3,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Christian Yelich - 2020",
+    "item_description": "Christian Yelich - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 8.99,
+    "quantity_instock": 5,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Lorenzo Cain - 2020",
+    "item_description": "Lorenzo Cain - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 7.50,
+    "quantity_instock": 6,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Matt Carpenter - Gold - 2020",
+    "item_description": "Matt Carpenter - Gold - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 35.00,
+    "quantity_instock": 2,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Yadier Molina - 2020",
+    "item_description": "Yadier Molina - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 22.00,
+    "quantity_instock": 7,
+    "business_id": 2
+  },
+  {
+    "item_name": "Topps MLB - Adam Wainwright - 2020",
+    "item_description": "Adam Wainwright - 2020",
+    "item_image": "https://res.cloudinary.com/drlulo3bd/image/upload/v1676955551/mpbf0jon4evtzs368fsq.png",
+    "item_price": 11.50,
+    "quantity_instock": 3,
+    "business_id": 2
+  }
+]

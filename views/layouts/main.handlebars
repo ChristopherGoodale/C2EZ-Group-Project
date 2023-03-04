@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C2EZ-POS</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/output.css">
+
+</head>
+
+<body>
+  <div class="main-body flex-column justify-space-around">
+    <header class="flex justify-space-between align-center p-2 ">
+        <a class="text-3xl font-bold text-white w-2/3 m-auto" href="/">Welcome to C2EZ POS!</a>
+      <nav class="nav-bar">
+        <!-- Conditionally render login or logout links -->
+        {{#if logged_in}}
+        <button class="no-button p-2 bg-black text-white m-3" id="newCart">ADD NEW CART</button>
+        <a class="no-button p-2 bg-black text-white m-3" href="/profile">PROFILE</a>
+        <button class="no-button p-2 bg-black text-white m-3" id="logout">LOGOUT</button>
+        {{else}}
+        <a class="no-button p-2 bg-black text-white m-3" href="/login">LOGIN</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main class="main-view">
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  <script src="/js/main.js"></script>
+  {{/if}}
+
+
+
+</body>
+</html>

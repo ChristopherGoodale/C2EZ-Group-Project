@@ -1,0 +1,42 @@
+[
+  {
+    "order_price": 20.00,
+    "payment_method": "cash",
+    "buyer_id": "5",
+    "seller_id": "1",
+    "paid": true
+  },
+  {
+    "order_price": 30.00,
+    "payment_method": "credit",
+    "buyer_id": "6",
+    "seller_id": "7",
+    "paid": true
+  },
+  {
+    "order_price": 10.00,
+    "payment_method": "cash",
+    "buyer_id": "9",
+    "seller_id": "7",
+    "paid": true
+  },
+  {
+    "order_price": 15.00,
+    "payment_method": "cash",
+    "buyer_id": "5",
+    "seller_id": "2",
+    "paid": true
+  },
+  {
+    "order_price": 20.00,
+    "payment_method": "credit",
+    "buyer_id": "5",
+    "seller_id": "2",
+    "paid": true
+  },
+  {
+    "paid": false,
+    "seller_id": "7"
+  }
+
+]

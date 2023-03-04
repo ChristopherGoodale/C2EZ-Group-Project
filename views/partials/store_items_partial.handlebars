@@ -1,0 +1,19 @@
+<!-- Loop over each item in the items array -->
+<div class="item-card" data-id="{{id}}">
+  <div class="item-name" data-id="{{id}}">
+    <h2 class="font-bold mb-2" >
+      <a data-id="{{id}}">{{item_name}}</a>
+    </h2>
+    {{#if item_image}}
+    <img class="item-image" style="--bg-image: {{item_image}}" src="{{item_image}}" width="75" height="75" alt="" data-id="{{id}}">
+    {{else}}
+    <img class="item-image" src="/images/150x150-placeholder-img.png" width="75" height="75" alt="" data-id="{{id}}">
+    {{/if}}
+    <p>
+
+      <span class="dollar-amount" data-id="{{id}}">{{money item_price}}</span>
+
+    </p>
+  </div>
+ 
+</div>

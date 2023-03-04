@@ -1,0 +1,47 @@
+<div class="flex">
+<div class="flex flex-col flex-1 border-black border-2 m-2 p-2">
+<H2>CLOSED Orders</H2>
+<div class="flex flex-wrap" id="order_id">
+{{#each ordersBySeller as |order|}}
+    <div class="bg-black text-white min-w-[20%] p-2 m-2"  data-id="{{order.id}}">
+        <div class="flex">
+            <div class="p-1" data-id="{{order.id}}">ORDER: {{order.id}}</div>
+            <div class="p-1" data-id="{{order.id}}">{{order.user.name}}</div>
+        </div>
+
+        {{#if paid }}
+            <div class="text-green-500" data-id="{{order.id}}">Closed</div>
+        {{else}}
+            <div class="text-red-500" data-id="{{order.id}}">Open</div>
+        {{/if}}
+
+            
+            
+    </div>
+{{/each}}
+</div>
+</div>
+
+<div class="flex flex-col flex-1 border-black border-2 m-2 p-2">
+<H2>OPEN Orders</H2>
+<div class="flex flex-wrap" id="openOrder_id">
+{{#each openOrdersBySeller as |order|}}
+    <div class="bg-black text-white min-w-[20%] p-2 m-2"  data-id="{{order.id}}">
+        <div class="flex">
+            <div data-id="{{order.id}}">ORDER: {{order.id}}</div>
+            <div data-id="{{order.id}}">{{order.user.name}}</div>
+        </div>
+            {{#if paid }}
+            <div class="text-green-500 " data-id="{{order.id}}">Closed</div>
+            {{else}}
+            <div class="text-red-500 " data-id="{{order.id}}">Open</div>
+            {{/if}}
+
+
+    </div>
+{{/each}}
+</div>
+</div>
+</div>
+
+<script src="./../js/ordersBySeller.js"></script>

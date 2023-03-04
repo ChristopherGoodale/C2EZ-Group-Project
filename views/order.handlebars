@@ -1,0 +1,7 @@
+hello
+{{#each items as |item|}}
+<div>{{item.item_name}}</div>
+<div>
+    <div>quantity:{{item.order_items.quantity_purchased}}</div>
+</div>
+{{/each}}

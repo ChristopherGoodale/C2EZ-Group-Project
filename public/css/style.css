@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  background-color: dimgray;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#atcBtn {
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: #056605;
+  margin-top: 1rem;
+  padding: 2rem;
+  color: white;
+}
+
+.add-new-inventory-button {
+  height: 10%;
+  width: 10%;
+  align-items: center;
+  border: solid black 2px;
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.card-img {
+  display: inline;
+}
+
+.card-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.form-input {
+  border: solid cadetblue 1px;
+  margin: 10px;
+  background-color: darkgrey;
+}
+
+.item-card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  border-radius: 4px;
+  background-color: lightgreen;
+  flex-direction: column;
+  padding: 20px;
+  width: 30%;
+}
+
+.individual-item-card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  border-radius: 4px;
+  background-color: lightgreen;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.item-description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-description-label {
+  color: white;
+}
+
+.item-image-label {
+  color: white;
+}
+
+
+.item-image {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-image: var(--bg-image);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.item-name-label {
+  color: white;
+}
+
+.inventory-item {
+  background-color: darkolivegreen;
+  color: white;
+  width: 30%;
+  border-radius: 6px;
+}
+
+.individual-item-name {
+  font-size: 1.5rem;
+}
+
+.item-price-label {
+  color: white;
+}
+
+.individual-purchaser {
+  border: solid black 2px;
+  background: cadetblue;
+  color: white;
+  text-align: center;
+  margin: 2px;
+  padding: 6px;
+  width: 30%;
+  height: auto
+
+}
+
+.inventory-button {
+  border: solid black 2px;
+  border-radius: 6px;
+  background-color: #056605;
+  color: white;
+  padding: 2rem;
+  margin: 2px;
+}
+
+.item-quantity-label {
+  color: white;
+}
+
+.main-body {
+  background-color: darkcyan;
+}
+
+.main-view {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+
+}
+
+.nav-bar{
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.profile-btn:hover {
+  color: black;
+}
+
+@media (hover: hover) {
+
+  .profile-btn:hover {
+    color: silver;
+    text-decoration: underline;
+  }
+}
+
+.purchasers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid black 2px;
+  min-width: 100px;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: darkolivegreen;
+  height: 50%;
+}
+
+.purchasers-button {
+
+  border: solid black 2px;
+  border-radius: 6px;
+  background-color: #056605;
+  color: white;
+  padding: 2rem;
+  margin: 2px;
+}
+
+
+.receipt {
+  display: flex;
+  border: solid black 2px;
+  border-style: dashed solid dashed solid;
+  padding: 1rem;
+  background-image: url("../images/paper-background.jpg");
+  min-width: 15rem
+}
+
+.sales-history-button {
+  border: solid black 2px;
+  border-radius: 6px;
+  background-color: #056605;
+  color: white;
+  padding: 2rem;
+  margin: 2px;
+}
+
+.sales-history-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+}
+
+#storeItems {
+  border: solid black 1px;
+  border-radius: 6px;
+  background-color: dimgray;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.total-price {
+  margin-top: 1rem;
+}
+
+.update-item-image {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-image: var(--bg-image);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.update-inventory-form {
+  border: solid black 2px;
+  padding: 10px;
+  background-color: darkolivegreen;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.update-inventory-business-name {
+  color: white;
+}
+
+
+

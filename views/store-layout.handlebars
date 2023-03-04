@@ -1,0 +1,14 @@
+<div class="flex">
+    <div id="storeItems" class="flex flex-wrap w-4/6 ">
+        {{#each items as |item|}}
+        {{> store_items_partial}}
+        {{/each}}
+    </div>
+    <div class="flex w-2/6">
+    {{> receipt_partial}}
+    </div>
+    
+</div>
+
+<script src="./../js/store-layout.js"></script>
+
